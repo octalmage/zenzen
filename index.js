@@ -4,6 +4,7 @@ d='<div id="zenzenButton" style="position: absolute; z-index:999; font-size: 20p
 $("body").append(d);
 z=$("#zenzenButton");
 z.on("click", function()
+$(document).on("ready",function()
 {
 	if (b.css("display") == "block") 
 	{
@@ -21,4 +22,5 @@ z.on("click", function()
 		z.css("right", "130px");
 		z.css("top", "10px");
 	}
+	});
 });
