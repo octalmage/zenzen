@@ -1,6 +1,6 @@
 $(document).on("ready",function()
 {
-	d='<div id="zenzenButton" style="position: absolute; z-index:999; font-size: 20px; top: 10px; right: 130px; cursor: pointer;">F</div>';
+	d='<div id="zenzenButton" style="position: absolute; z-index:999; font-size: 20px; top: 10px; right: 150px; cursor: pointer;">F</div>';
 	$("body").append(d);
 	$("#zenzenButton").on("click", function()
 	{
@@ -21,7 +21,7 @@ $(document).on("ready",function()
 			b.css("display", ""); 
 			t.css("position", "");
 			z.text("F");
-			z.css("right", "130px");
+			z.css("right", "150px");
 			z.css("top", "10px");
 		}
 	});
