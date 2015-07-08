@@ -1,3 +1,4 @@
+//We're ready!
 $(document).on("ready",function()
 {
 	d='<div id="zenzenButton" style="position: absolute; z-index:999; font-size: 20px; top: 10px; right: 150px; cursor: pointer;">F</div>';
