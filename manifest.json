@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "content_scripts": [
     {
-      "matches": ["*://wpengine.zendesk.com/*"],
+      "matches": ["*://*.zendesk.com/*"],
       "js": ["jquery-1.11.3.min.js", "index.js"]
      
     }
